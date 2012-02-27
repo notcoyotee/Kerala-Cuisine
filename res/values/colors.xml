@@ -12,10 +12,10 @@
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
-    limitations under the License.
+    limitations under the License.ff355689
 -->
 <resources>
-    <color name="title_background">#ff355689</color>
+    <color name="title_background">#D9CCA2</color>
     <color name="title_text">#ffffffff</color>
     <color name="title_text_alt">#ff000000</color>
     <color name="foreground1">#ff355689</color>

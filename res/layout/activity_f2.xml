@@ -48,31 +48,38 @@
         android:layout_width="match_parent"
         android:layout_height="451dp" >
 
-        <EditText
-            android:id="@+id/ingredients2"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentTop="true"
-            android:layout_toLeftOf="@+id/instructions2"
-            android:gravity="top"
-            android:inputType="textMultiLine" >
+            >
 
-            <requestFocus />
-        </EditText>
+            <EditText
+                android:id="@+id/ingredients2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".60"
+                android:editable="false"
+                android:gravity="top"
+                android:inputType="textMultiLine" />
 
-        <EditText
-            android:id="@+id/instructions2"
-            android:layout_width="800dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/editText1"
-            android:gravity="top"
-            android:inputType="textMultiLine" />
+            <EditText
+                android:id="@+id/instructions2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".40"
+                android:editable="false"
+                android:gravity="top"
+                android:inputType="textMultiLine" />
+
+        </LinearLayout>
 
     </RelativeLayout>
-
+<TextView
+        android:id="@+id/textViewLink2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 </LinearLayout>
